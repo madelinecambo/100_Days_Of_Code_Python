@@ -6,5 +6,5 @@ This repository was created to track my progress from the 100 days of coding cha
 
 | Day | Project Name | Description|
 |-----:|-------------|-------------|
-| Day 1| [Band Name Generator](Day1-Band_Name_Generator)| Learned how to use the input statement, print, comment and assign variables|
-|Day 2|Tip Calculator| Learned how to XYZ|
+| Day 1| [Band Name Generator](Day1-Band_Name_Generator)| Created a tool for generating band names based on user inputs|
+|Day 2|[Tip Calculator](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day2-Tip_Calculator)| Built a program for splitting a bill with tip added|
