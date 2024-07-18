@@ -32,34 +32,23 @@ print(logo)
 
 
 
-
-
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
-
 # TODO-2: What if the user enters a shift that is greater than the number of letters in the alphabet?
 # Try running the program and entering a shift number of 45.
 # Add some code so that the program continues to work even if the user enters a shift number greater than 26.
 # Hint: Think about how you can use the modulus (%).
 #
-if shift % 25 >= 1:
-    new_shift = shift
-    while new_shift > 25:
-        new_shift -= 25
-    print(new_shift)
-else:
-    new_shift = shift
 
 
+should_continue = True
 
-caesar(start_text=text, shift_amount=new_shift, cipher_direction=direction)
-
-user_continue = input("Would you like to encode/decode another message? Type 'yes' or 'no'.)")
-
-while user_continue == 'yes':
+while should_continue:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
-    caesar(start_text=text, shift_amount=new_shift, cipher_direction=direction)
-    user_continue = input("Would you like to encode/decode another message? Type 'yes' or 'no'.)")
+    shift = shift % 26
+    caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
+    result = input("Would you like to encode/decode another message? Type 'yes' or 'no'.)")
+    if result == 'no':
+        should_continue = False
+        print("Goodbye!")
+
