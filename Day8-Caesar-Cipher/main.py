@@ -42,7 +42,7 @@ shift = int(input("Type the shift number:\n"))
 # Try running the program and entering a shift number of 45.
 # Add some code so that the program continues to work even if the user enters a shift number greater than 26.
 # Hint: Think about how you can use the modulus (%).
-
+#
 if shift % 25 >= 1:
     new_shift = shift
     while new_shift > 25:
