@@ -54,7 +54,7 @@ def calculator():
             should_continue = False
             # print("Thanks for Calculating!")
             calculator()
-# Call Calculator Function.
+# Call Calculator Function
 calculator()
 
 
