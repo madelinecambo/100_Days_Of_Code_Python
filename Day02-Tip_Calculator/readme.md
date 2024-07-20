@@ -11,3 +11,9 @@ Day 2 project of the 100 days of coding Udemy Course. The final project involved
 - special formatting
   
 
+## Day 2 Project - Tip Calculator
+
+
+
+https://github.com/user-attachments/assets/d24f2dda-d3e0-461f-9411-9897f3ad45c0
+
