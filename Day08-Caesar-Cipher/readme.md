@@ -13,3 +13,9 @@ For day 8 we learned how to write more complex functions with multiple arguments
 ### Day 8 - Project 
 
 The Day 8 Project was a Caesar Cipher that could encode and decode text by shifting the alphabet by a user defined amount.
+
+
+
+https://github.com/user-attachments/assets/1dc900fd-34eb-453a-8dfa-bf75aae359fb
+
+
