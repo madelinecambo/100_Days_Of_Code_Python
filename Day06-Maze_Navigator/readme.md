@@ -14,3 +14,8 @@ For day 6 we learned how to navigate a robot through a maze using functions, con
 
 The Day 6 final project was writing a script that would succesfully navigate a robot through a maze regardless of starting point and starting direction. 
 If the robot starting point was without touching any walls, then with the initial code it would get stuck in an infinite for loop. Debugging was used to account for starting points that would cause the robot to enter an infinite for loop.
+
+https://github.com/user-attachments/assets/4b0dc83b-7d4d-4a0b-a202-7c1ad5c8d6b9
+
+
+
