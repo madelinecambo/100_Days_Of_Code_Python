@@ -13,7 +13,7 @@ This repository was created to track my progress from the 100 days of coding cha
 |5|[Password Generator](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day05-Password_Generator)|Learned how to create a password generator using for loops|
 |6|[Escaping the Maze](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day06-Maze_Navigator)|Learned how to navigate a robot through a maze|
 |7| [Hangman Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day07-Hangman)|Created a Hangman Game|
-|8|[Cesear Cipher](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day08-Caesar-Cipher)|Created a program for encoding and decoding messages using a Caesear Cipher|
+|8|[Caesar Cipher](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day08-Caesar-Cipher)|Created a program for encoding and decoding messages using a Caesear Cipher|
 |9|[Secret Auction](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day09-Silent_Auction)| Wrote a silent auction program using dictionaries|
 |10|[Calculator App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day10-Calculator_App)|Built a program to do basic math calculations|
 
