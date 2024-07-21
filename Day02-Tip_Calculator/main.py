@@ -10,11 +10,11 @@
 print("Welcome to the tip calculator!")
 
 total_bill = float(input("What was the total bill?"))
-tip = int(input("How much tipe would you like to give? 10, 12, or 15?"))
+tip = int(input("How much tip would you like to give? 10, 12, or 15?"))
 split_n = int(input("How many people to split the bill?"))
 
 # the calculation for adding the tip to the total bill and then dividing among people paying
 split_amount = round((total_bill + total_bill * tip/100)/split_n, 2)
 
 # print the amount that everyone should pay. Use string formatting to show 2 decimal places in all cases
-print(f"Each person should pay: {split_amount:.2f}")
+print(f"Each person should pay: ${split_amount:.2f}")

@@ -10,7 +10,7 @@ from hangman_words import word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 guessed_letters = []
-print(chosen_word)
+
 
 end_of_game = False
 lives = 6
@@ -19,7 +19,7 @@ lives = 6
 from hangman_art import stages, logo
 print(logo)
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []

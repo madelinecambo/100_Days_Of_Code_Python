@@ -18,13 +18,12 @@ while additional_bidders == True:
     bidding_dict[bidder_name]= bid
 
     continue_auction = input("Are there additional bidders? Type 'yes' or 'no'.")
-    print(continue_auction)
+
     if continue_auction != 'yes':
         additional_bidders = False
     elif continue_auction == 'yes':
         clear()
 
-print(bidding_dict)
 starting_bidder = list(bidding_dict.keys())[0]
 starting_bid = list(bidding_dict.values())[0]
 
