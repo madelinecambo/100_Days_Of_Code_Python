@@ -12,3 +12,7 @@ For day 5 we learned about for loops and the range function
 ### Day 5 - Project: Password Generator
 
 The Day 5 project involved creating a program to generate random passwords based on a user specified number of letters, numbers and symbols. The output of the program was a very secure random password. 
+
+https://github.com/user-attachments/assets/337b4be2-b1d4-4639-8adb-1211202e3cf6
+
+

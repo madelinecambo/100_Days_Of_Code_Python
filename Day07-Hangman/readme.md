@@ -12,4 +12,11 @@ For day 7 we learned how to use flow chart programming to build a more complex g
 
 ### Day 7 - Project 
 
-The Day 7 project was creation of a hangman game using all the concepts learned so far in the course. The final product was a working hangman game.  
+The Day 7 project was creation of a hangman game using all the concepts learned so far in the course. The final product was a working hangman game. 
+
+
+
+https://github.com/user-attachments/assets/b9eaeec0-d81d-49c1-9e42-b108eee9c533
+
+
+

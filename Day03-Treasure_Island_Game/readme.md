@@ -12,3 +12,10 @@ The final project for Day 3 was creating a Choose Your Own Adventure Game using 
 * Multiple if statements in succession
 * Logical Operators
 * ASCII Art Sources 
+
+### Day 3 Project - Treasure Island Choose Your Own Adventure Game
+
+
+
+https://github.com/user-attachments/assets/465e076d-2fb2-4ce6-977d-d4c77b98cefb
+
