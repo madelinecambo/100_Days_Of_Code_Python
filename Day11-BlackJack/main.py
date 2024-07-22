@@ -17,6 +17,106 @@ cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 ## Cards are not removed from the deck as they are drawn.
 ## The computer is the dealer.
 
+from art import logo
+from blackjack_functions import *
+
+
+
+
+play_game_question = input("Do you want to play a game of Blackjack? Type 'y' or 'n':")
+if play_game_question == 'n':
+    continue_play = False
+    print("Maybe next time!")
+else:
+    continue_play = True
+
+
+
+while continue_play:
+    game_over = False
+    print(logo)
+    user_cards, computer_cards = deal_first_hand()
+    deal_another_question = input("Type 'y' to get another card, type 'n' to pass ")
+    while deal_another_question == 'y':
+        game_over = check_bust(user_cards, computer_cards)
+        if game_over == False:
+            user_cards = deal_more_cards_player(user_cards)
+            game_over = check_bust(user_cards, computer_cards)
+            if game_over == False:
+                deal_another_question = input("Type 'y' to get another card, type 'n' to pass ")
+            if game_over == True:
+                deal_another_question = 'n'
+
+    if deal_another_question == 'n':
+        if game_over == False:
+            deal_more_cards_computer(computer_cards)
+            game_over = check_bust(user_cards, computer_cards)
+
+            get_final_hands(user_cards, computer_cards)
+            check_game_over(user_cards, computer_cards)
+            game_over = True
+        if game_over == True:
+            pass
+
+    if game_over == True:
+        continue_play_question = input("Would you like to play again? 'y' or 'n' ")
+        if continue_play_question != 'y':
+            continue_play = False
+            print("Thanks for Playing!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##################### Hints #####################
 
 #Hint 1: Go to this website and try out the Blackjack game:
