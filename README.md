@@ -16,5 +16,6 @@ This repository was created to track my progress from the 100 days of coding cha
 |8|[Caesar Cipher](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day08-Caesar-Cipher)|Created a program for encoding and decoding messages using a Caesear Cipher|
 |9|[Secret Auction](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day09-Silent_Auction)| Wrote a silent auction program using dictionaries|
 |10|[Calculator App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day10-Calculator_App)|Built a program to do basic math calculations|
-|11|[Black Jack Capstone Project]()|A project that showcases my skills learned so far|
+|11|[Black Jack Capstone Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day11-BlackJack)|A project that showcases my skills learned so far|
+|12|[Guess A Number Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day12-Number_Guessing_Game/readme.md)|Learned about local vs global scope| 
 
