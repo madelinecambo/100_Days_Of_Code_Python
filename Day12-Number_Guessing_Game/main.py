@@ -9,40 +9,60 @@
 # Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
 
 from art import logo
-import random
-print(logo)
+from random import randint
 
-# intro to the program. Welcome. Thinking of number. Chose difficulty level
-print("Welcome to the Number Guessing Game!\nI am thinking of a number between 1 and 100")
+EASY_LEVEL_TURNS = 10
+HARD_LEVEL_TURNS = 5
 
-#generate a random number between 1 and 100.
-random_number = random.randint(1, 100)
+#Ask user to guess a number. Check if that number matchs. Return if the guess is too low or too high
+def check_answer(guess, answer, turns):
+    """Checks answer against guess and returns the number of turns remaining"""
+    if guess > answer:
+        print("Too high.")
+        return turns - 1
+    if guess < answer:
+        print("Too low.")
+        return turns - 1
+    else:
+        print(f"You got it! The answer was {answer}")
+        return turns
 
-#if statement that instatiates guesses based on difficult level. 10 for easy, 5 for hard
-difficulty_level = input("Chose a difficulty. Type 'easy' or 'hard': ")
-if difficulty_level == 'hard':
-    attempts_left = 5
-else:
-    attempts_left = 10
+#function to set difficulty
+def set_difficulty():
+    """Ask user for difficulty level and return the appropriate number of attempts"""
+    difficulty_level = input("Chose a difficulty. Type 'easy' or 'hard': ")
+    if difficulty_level == 'easy':
+        return EASY_LEVEL_TURNS
+    else:
+        return HARD_LEVEL_TURNS
+def number_game():
+    print(logo)
+    # intro to the program. Welcome. Thinking of number. Chose difficulty level
+    print("Welcome to the Number Guessing Game!\nI am thinking of a number between 1 and 100")
 
-# create a flag that will be used in a while loop to allow the user to guess multiple times
-game_over = False
+    #generate a random number between 1 and 100.
+    answer = randint(1, 100)
+    # print(answer)
+    turns = set_difficulty()
 
-while not game_over:
-    print(f"You have {attempts_left} attempts remaining to guess the number")
-    #Ask user to guess a number. Check if that number matchs. Return if the guess is too low or too high
-    user_guess = int(input("Make a guess: "))
-    #increment the attempts down by 1. Tell user to guess again. Repeat process until attempts are out. or user guesses correctly
-    if (user_guess == random_number) & (attempts_left > 1):
-        print(f"You got it! The answer was {random_number}")
-        game_over = True
-    elif (user_guess != random_number) & (attempts_left == 1):
-        print("You've run out of guesses. You lose.")
-        game_over = True
-    elif user_guess < random_number:
-        print("Too low.\nGuess Again")
-        attempts_left -= 1
-    elif user_guess > random_number:
-        print("Too high.\nGuess Again")
-        attempts_left -= 1
+    #declare the variable outside of the while loop so that its defined
+    user_guess = 0
+    while (user_guess != answer) & (turns >= 1):
+        print(f"You have {turns} attempts remaining to guess the number")
+        user_guess = int(input("Make a guess: "))
 
+        #update the local variable everytime we check the guess against the answer
+
+        turns = check_answer(user_guess, answer, turns)
+
+        if turns == 0:
+            print("You've run out of guesses. You lose.")
+            # with functions you can write returns to exit and end the function
+            return
+        elif (user_guess != answer) & (turns >= 1):
+            print("Guess Again!")
+
+
+
+
+number_game()
