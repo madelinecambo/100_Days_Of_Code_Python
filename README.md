@@ -18,4 +18,5 @@ This repository was created to track my progress from the 100 days of coding cha
 |10|[Calculator App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day10-Calculator_App)|Built a program to do basic math calculations|
 |11|[Black Jack Capstone Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day11-BlackJack)|A project that showcases my skills learned so far|
 |12|[Guess A Number Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day12-Number_Guessing_Game/readme.md)|Learned about local vs global scope| 
+|13|[Debugging Practice](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day13-Debugging)|Learned essential debugging techniques|
 
