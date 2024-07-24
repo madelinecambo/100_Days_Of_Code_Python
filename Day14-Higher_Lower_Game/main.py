@@ -28,7 +28,7 @@ def show_comparison(person_a, person_b):
     """To show the user Person A vs Person B and allow them to guess which has more instagram followers"""
     print(f"Compare A: {person_a['name']}, {person_a['description']}, from {person_a['country']}.")
     print(vs)
-    print(f"Compare B: {person_b['name']}, {person_b['description']}, from {person_b['country']}.")
+    print(f"Against B: {person_b['name']}, {person_b['description']}, from {person_b['country']}.")
 
 def check_user_guess(person_a, person_b, user_guess, score):
     """For checking if the user guessed correctly or incorrectly.
