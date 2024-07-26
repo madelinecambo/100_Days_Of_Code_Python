@@ -20,12 +20,11 @@ This repository was created to track my progress from the 100 days of coding cha
 |12|[Guess A Number Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day12-Number_Guessing_Game/readme.md)|Learned about local vs global scope| 
 |13|[Debugging Practice](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day13-Debugging)|Learned essential debugging techniques|
 |14|[Higher of Lower Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day14-Higher_Lower_Game/readme.md)|Created a higher or lower game|
-|15|[Coffee Machine Program]()|Wrote a script to make a virtual coffee machine|
 
 ## Intermediate Projects
 
 | Day | Project Name | Description|
 |-----:|-------------|-------------|
-|15|Coffee Machine|Leveraged OOP concepts to build a coffee machine|
+|15|[Coffee Machine]()|Wrote a script to make a virtual coffee machine|
 
 
