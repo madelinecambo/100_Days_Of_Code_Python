@@ -26,5 +26,6 @@ This repository was created to track my progress from the 100 days of coding cha
 | Day | Project Name | Description|
 |-----:|-------------|-------------|
 |15|[Coffee Machine](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day15-Coffee_Machine)|Wrote a script to make a virtual coffee machine|
+|16|[OOP Coffee Machine]()|Recreated the virtual coffee machine using OOP principles|
 
 
