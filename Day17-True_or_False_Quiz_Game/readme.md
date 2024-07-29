@@ -12,6 +12,12 @@ For Day 17 I created a true or false quiz game using OOP principles.
 
 
 
+https://github.com/user-attachments/assets/9b074d84-7d7d-4fa2-97b4-d2dce76457c8
+
+
+
+
+
 
 
 
