@@ -1,8 +1,4 @@
-# TODO Asking the question
-# TODO check if the answer was correct
-# TODO checking if we're at the end of the quiz
 
-# TODO create QuizBrain Class with 2 attributes. Question Number and question List. Method. Next_question
 
 class QuizBrain:
     def __init__(self, question_list):
