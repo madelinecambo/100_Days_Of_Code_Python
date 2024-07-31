@@ -6,6 +6,9 @@ For Day 18 I created a Damien Hirst Dot Painting using OOP principles.
 #### Concepts
 * Reading and understanding documentation
 * Creating classes and objects
+* Utilizing OOP principles to structure my code efficiently
+* Using libraries like Turtle graphics, colorgram and random to generate and plot the dots.
+* Enhancing my skills in loops, conditionals, and function definitions.
 
 
 ## Day 18 Project - Hirst Dot Painting
