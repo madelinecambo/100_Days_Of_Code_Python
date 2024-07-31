@@ -1,17 +1,16 @@
 
-# Day 18 - Hirst Dot Painting
+# Day 18 - Damien Hirst Dot Painting
 
-For Day 18 I created a Hirst Dot Painting using OOP principles.  
+For Day 18 I created a Damien Hirst Dot Painting using OOP principles.  
 
 #### Concepts
 * Reading and understanding documentation
 * Creating classes and objects
-* Leveraged the Turtle Graphics library to create a Damien Hirst dot painting
 
 
 ## Day 18 Project - Hirst Dot Painting
 
-Leveraged the Turtle Graphics library to create a version of a Damien Hirst dot painting that is 10 x 10. 
+Used the Turtle Graphics library to create a version of a Damien Hirst dot painting that is sized 10 x 10. 
 
 
 
