@@ -5,7 +5,7 @@ For Day 17 I created a true or false quiz game using OOP principles.
 
 #### Concepts
 * creating objects from Classes
-* Creating class attributes and functions
+* Creating class attributes and methods
 
 
 ## Day 17 Project - True or False Quiz Game
