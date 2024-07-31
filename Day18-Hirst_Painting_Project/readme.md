@@ -1,5 +1,5 @@
 
-# Day 17 - Hirst Dot Painting
+# Day 18 - Hirst Dot Painting
 
 For Day 18 I created a Hirst Dot Painting using OOP principles.  
 
