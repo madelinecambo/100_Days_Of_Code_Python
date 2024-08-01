@@ -1,10 +1,11 @@
 
-# Day 19 - Damien Hirst Dot Painting
+# Day 19 - Instances, State and Higher Order Functions
 
 For Day 19 I created an Etch-A-Sketch Game and a Turtle Racing Game using Object Oriented Programming concepts. 
 
 #### Concepts
 * Reading and understanding documentation
+* Higher order functions and how to use them
 * Object states and instances
 * Creating classes and objects
 * Understanding coordinate systems
