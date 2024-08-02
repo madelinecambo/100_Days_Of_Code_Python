@@ -1,3 +1,5 @@
+# Day 2
+
 from turtle import Screen
 from snake import Snake
 import time
