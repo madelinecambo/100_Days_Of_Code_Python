@@ -1,5 +1,5 @@
 
-# Day 20 - Build the Snake Game: Animation and Coordinates
+# Day 20 - Build the Snake Game (Part 1): Animation and Coordinates
 
 For Day 20 & 21 I built the classic Nokia Snake game using OOP principles. 
 
@@ -13,9 +13,9 @@ For Day 20 & 21 I built the classic Nokia Snake game using OOP principles.
 * Program and game design 
 
 
-## Day 20 & 21 Project - The Snake Game 
+## Day 20 Project - The Snake Game (Part 1)
 
-The main project for Day 20 & 21 involved creating the Classic Snake Game. 
+The main project for Day 20 involved creating the foundations for the Classic Snake Game. At the end of Day 20 a Snake Game was created where the user could control the snake using the up, down, left and right keys. 
 
 https://github.com/user-attachments/assets/d5d08949-047c-4af7-958b-b395efdf0325
 
