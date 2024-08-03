@@ -16,14 +16,18 @@ Class inheritance was used to create the Food and ScoreBoard class which inherit
 * Slicing Lists and Tuples 
 
 
-## Day 20 Project - The Snake Game (Part 1)
+## Day 21 Project - The Snake Game (Part 2): Class Inheritance and Slicing
 
 The main project for Day 21 involved putting the finishing touches on the Classic Snake Game. The game is now fully functioning and works the same as the classic Nokia Snake Game.
 When the game starts the snake is moving across the screen. The snake can be controlled with the arrow keys. Every time a piece of food is eaten, the snake grow by one segment.
 The game continues until the snake collides with itself or with the wall. 
 
 
-https://github.com/user-attachments/assets/e5384000-601d-42f4-a295-51c7b9ea1e75
+
+https://github.com/user-attachments/assets/f92edf82-ccc4-4669-8784-7f392dcf89cb
+
+
+
 
 
 
