@@ -4,7 +4,6 @@ from ball import Ball
 from scoreboard import ScoreBoard
 import time
 
-ball_speed = 0.1
 
 #Setup the Screen
 screen = Screen()
