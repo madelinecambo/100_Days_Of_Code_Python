@@ -15,7 +15,7 @@ class ScoreBoard(Turtle):
         self.goto(-270, 265)
         self.write(f"Level: {self.level}", align="left", font=FONT)
 
-    def increcment_level(self):
+    def increment_level(self):
         self.level += 1
 
     def game_over(self):
@@ -25,9 +25,3 @@ class ScoreBoard(Turtle):
         game_over_message.hideturtle()
         game_over_message.goto(0, 0)
         game_over_message.write("Game Over", align="center", font=FONT)
-
-
-
-
-
-

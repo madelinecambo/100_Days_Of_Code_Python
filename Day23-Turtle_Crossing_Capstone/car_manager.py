@@ -6,7 +6,7 @@ STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 
 
-class CarManager():
+class CarManager:
     def __init__(self):
         self.all_cars = []
 
@@ -22,13 +22,6 @@ class CarManager():
             new_car.goto(300, random_y)
             self.all_cars.append(new_car)
 
-
     def move_cars(self, level):
         for car in self.all_cars:
-            car.backward(STARTING_MOVE_DISTANCE*level)
-
-
-
-
-
-
+            car.backward(STARTING_MOVE_DISTANCE * level)
