@@ -27,7 +27,11 @@ On Day 24 additional game functionality was added that saves the highest score a
 
 
 
-https://github.com/user-attachments/assets/f92edf82-ccc4-4669-8784-7f392dcf89cb
+https://github.com/user-attachments/assets/5ef091ef-88c4-4596-a3dd-fbc2d1efe642
+
+
+
+
 
 
 
