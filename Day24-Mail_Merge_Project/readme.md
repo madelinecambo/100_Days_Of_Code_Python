@@ -16,7 +16,8 @@ The main project for Day 24 involved writing a script that would automate the cr
 For this project I read in the names from a text file, then read in a template letter. Using the .replace() method I replaced the [name] field with the appropriate name.
 I then saved the template letter to a ReadyToSendFolder which had the final complete personalized invitation for the Birthday Party. 
 
-![Screenshot 2024-08-05 152137](https://github.com/user-attachments/assets/e5af1c38-11f7-4a21-9e37-0f3e003d8e41)
+![Screenshot 2024-08-05 153759](https://github.com/user-attachments/assets/536e963d-716c-4029-97b8-a223523e2573)
+
 
 ## Tomato Count
 
