@@ -10,18 +10,26 @@ class ScoreBoard(Turtle):
         self.color("white")
         self.goto(0, 270)
         self.score = 0
+        with open("data.txt") as data:
+            self.high_score = int(data.read())
         self.update_scoreboard()
 
     def update_scoreboard(self):
-        self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
+        self.clear()
+        self.write(f"Score: {self.score} High Score: {self.high_score}", align=ALIGNMENT, font=FONT)
 
-    def game_over(self):
-        self.goto(0, 0)
-        self.write("GAME OVER", align=ALIGNMENT, font=FONT)
+    def reset(self):
+        if self.score > self.high_score:
+            with open("data.txt", mode="w") as file:
+                #use an f string to convert the score to a string so it can be written to the file
+                file.write(f"{self.score}")
+            self.high_score = self.score
+        self.score = 0
+        self.update_scoreboard()
+
 
     def score_point(self):
         self.score += 1
-        self.clear()
         self.update_scoreboard()
 
 
