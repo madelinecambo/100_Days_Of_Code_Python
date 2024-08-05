@@ -26,7 +26,14 @@ This repository was created to track my progress from the 100 days of coding cha
 | Day | Project Name | Description|
 |-----:|-------------|-------------|
 |15|[Coffee Machine](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day15-Coffee_Machine)|Wrote a script to make a virtual coffee machine|
-|16|[OOP Coffee Machine]()|Recreated the virtual coffee machine using OOP principles|
-|17|[True or False Quiz Game]()|Created a true/false quiz game using OOP|
+|16|[OOP Coffee Machine](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day16-OOP_Coffee_Machine)|Recreated the virtual coffee machine using OOP principles|
+|17|[True or False Quiz Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day17-True_or_False_Quiz_Game)|Created a true/false quiz game using OOP|
+|18|[Hirst Dot Painting](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day18-Hirst_Painting_Project)|Created a version of a Hirst Dot Painting|
+|19|[Turtle Race Betting Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day19-Etch-A-Sketch_and_Turtle_Races)|Created a turtle race betting game|
+|20|[Snake Game Part 1](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day20-Snake_Game-Part1)|First Part of Classic Nokia Snake Game|
+|21|[Snake Game Part 2](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day21-Snake_Game-Part2)|Final Classic Nokia Snake Game with High Score Saving Functionality|
+|22|[Pong Arcade Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day22-Pong_Arcade_Game)|The Classic Pong Arcade Game|
+|23|[Turtle Crossing Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day23-Turtle_Crossing_Capstone)|A Version of Frogger with a Turtle|
+|24|[Mail Merge Automation Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day24-Mail_Merge_Project)|Practicing with files and directories to automate letter creation|
 
 
