@@ -35,6 +35,6 @@ This repository was created to track my progress from the 100 days of coding cha
 |22|[Pong Arcade Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day22-Pong_Arcade_Game)|The Classic Pong Arcade Game|
 |23|[Turtle Crossing Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day23-Turtle_Crossing_Capstone)|Capstone Project|
 |24|[Mail Merge Automation Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day24-Mail_Merge_Project)|Files, Directories and Paths|
-|25|[U.S. States Guessing Game]()|Working with CSV Data and the Pandas Library|
+|25|[U.S. States Guessing Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day25-US_State_Naming_Game)|Working with CSV Data and the Pandas Library|
 
 
