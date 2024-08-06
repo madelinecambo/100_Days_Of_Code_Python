@@ -15,7 +15,7 @@ The main project for Day 26 was using dictionary comprehension to create a tool 
 
 ## Tomato Count
 
-Day 26 Lessons and Project took: 🍅🍅🍅🍅
+Day 26 Lessons and Project took: 🍅🍅🍅
 
 
 
