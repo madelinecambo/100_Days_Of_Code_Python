@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/f521a4d2-5ed7-46ca-8417-86e6e7d2837a
 
 ## Tomato Count
 
-Day 25 Lessons and Project took: 🍅🍅🍅
+Day 25 Lessons and Project took: 🍅🍅🍅🍅
 
 
 
