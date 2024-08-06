@@ -18,16 +18,9 @@ all_states = state_coordinates.state.tolist()
 while len(guessed_correctly) < 50:
     answer_state = screen.textinput(title=f"{len(guessed_correctly)}/50 States Correct", prompt= "What's another State's name?").title()
     if answer_state == "Exit":
-        # create empty list to hold the states that were missed
-        missing_states = []
-        # loop through every state. Append it to the missing states if it was not guessed
-        for state in all_states:
-            if state in guessed_correctly:
-                pass
-            else:
-                missing_states.append(state)
+        missing_states = [state for state in all_states if state not in guessed_correctly]
         # create dataframe from the list of missing states
-        states_to_learn= pd.DataFrame(missing_states)
+        states_to_learn = pd.DataFrame(missing_states)
         # write data to csv
         states_to_learn.to_csv('states_to_learn.csv')
         break
