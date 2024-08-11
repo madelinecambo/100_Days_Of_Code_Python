@@ -12,10 +12,10 @@ For Day 29 I built a Password Manager application for generating secure password
 
 ## Day 29 Project - Password Manager GUI Application
 
-The main project for Day 29 involved building a password manager to generate and store secure password for websites. 
-The application is prepopulation with a username (email) and the prompts the user to enter the Website name and push the Generate Password button to generate a secure password.
-Once the password is generated the user has the option to Add the password, which will save it as a text file. 
-Once as secure password is generated its also copied automatically to the clipboard for easy pasting into the applicable website. 
+* The main project for Day 29 involved building a password manager to generate and store secure password for websites. 
+* The application is prepopulation with a username (email) and the prompts the user to enter the Website name and push the Generate Password button to generate a secure password.
+* Once the password is generated the user has the option to Add the password, which will save it as a text file. 
+* Once as secure password is generated its also copied automatically to the clipboard for easy pasting into the applicable website. 
 
 https://github.com/user-attachments/assets/7f555194-78a8-4cb5-8310-cfe92a05044e
 
