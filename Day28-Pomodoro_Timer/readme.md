@@ -1,6 +1,6 @@
 # Day 28 - Tkinter, Dynamic Typing and the Pomodoro GUI Application
 
-For Day 27 I learned how to use the Tkinter library more extensively, learned about dynamic typing and built a Pomodoro GUI Application. 
+For Day 28 I learned how to use the Tkinter library more extensively, learned about dynamic typing and built a Pomodoro GUI Application. 
 
 #### Concepts
 * Tkinter
