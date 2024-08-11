@@ -11,7 +11,7 @@ from tkinter import *
 
 current_card = {}
 try:
-    df = pd.read_csv("words_to_learn.csv")
+    df = pd.read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
     df = pd.read_csv("data/data_science_interview_flashcards.csv")
 to_learn = df.to_dict(orient="records")
@@ -35,7 +35,7 @@ def flip_card():
 def remove_card():
     to_learn.remove(current_card)
     learn_df = pd.DataFrame(to_learn)
-    learn_df.to_csv("words_to_learn.csv")
+    learn_df.to_csv("data/words_to_learn.csv", index=False)
     print(len(to_learn))
     next_card()
 
