@@ -1,0 +1,46 @@
+# Day 30 - Errors, Exceptions and JSON Data
+
+For Day 30 I built a put the finishing touches on a Password Manager application for generating secure passwords and saving them to a JSON file.  
+
+#### Concepts
+* Exception Handling
+* Reading, writing and updating JSON files
+* Adding Search Functionality to the Password Manager Application
+* Using Message Boxs to convey important information to the user
+* How to improve design layout 
+
+## Day 29 Project - Password Manager GUI Application
+
+* The main project for Day 29 involved building a password manager to generate and store secure password for websites. 
+* The application is prepopulation with a username (email) and the prompts the user to enter the Website name and push the Generate Password button to generate a secure password.
+* Once the password is generated the user has the option to Add the password, which will save it as a text file. 
+* Once as secure password is generated its also copied automatically to the clipboard for easy pasting into the applicable website. 
+
+* Search functionality was added so that the user can search to see if they've already created a username and password for a specific website. 
+
+
+https://github.com/user-attachments/assets/680e0246-f27c-4517-90b1-0c09083ec798
+
+
+## Tomato Count
+
+Day 30 Lessons and Project took: 🍅🍅🍅🍅
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
