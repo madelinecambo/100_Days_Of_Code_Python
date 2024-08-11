@@ -13,7 +13,7 @@ For Day 30 I built a put the finishing touches on a Password Manager application
 
 * The main project for Day 30 was adding the finishing touches to the Password Manager Application that was created on Day 29. Error exception handling was adding and an additional search functionality was added. 
 * The application is prepopulation with a username (email) and the prompts the user to enter the Website name and push the Generate Password button to generate a secure password.
-* Once the password is generated the user has the option to Add the password, which will save it as a text file. 
+* Once the password is generated the user has the option to Add the password, which will save it as a JSON file. 
 * Once as secure password is generated its also copied automatically to the clipboard for easy pasting into the applicable website. 
 * Search functionality was added so that the user can search to see if they've already created a username and password for a specific website. 
 
