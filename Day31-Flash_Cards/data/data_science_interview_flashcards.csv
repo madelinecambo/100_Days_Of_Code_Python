@@ -1,0 +1,26 @@
+Concept,Answer
+Assumptions of Linear Regression,"Linear relationship, multivariate normality, no multicollinearity, variance inflation factor below 10, and homoscedasticity."
+Interpretation of Logistic Regression Coefficients,"The coefficients represent the log odds of the dependent variable being 1, holding other variables constant."
+Advantages of Decision Trees,"Easy to interpret, can handle both numerical and categorical data, non-parametric, and requires little data preprocessing."
+How Random Forests Prevent Overfitting,"By averaging the results of multiple decision trees, random forests reduce variance and prevent overfitting."
+Boosting in Gradient Boosting Machines,"Boosting involves sequentially training models to correct errors made by previous models, focusing on hard-to-predict instances."
+Kernel Trick in SVM,"The kernel trick allows SVMs to operate in a high-dimensional space without explicitly computing the coordinates in that space, making it computationally efficient."
+Curse of Dimensionality in KNN,"As the number of features increases, the distance between data points in KNN becomes less informative, leading to poorer model performance."
+Use Cases of K-Means Clustering,"K-Means is used in market segmentation, document clustering, image compression, and as a preprocessing step for other algorithms."
+Principal Component Analysis (PCA) Purpose,"PCA is used for dimensionality reduction by projecting data onto a lower-dimensional subspace, capturing the maximum variance."
+Tokenization in NLP,"Tokenization is the process of splitting text into individual words or tokens, which are then used for further processing in NLP."
+ARIMA in Time Series,"ARIMA stands for AutoRegressive Integrated Moving Average, a model used to predict future points in a time series by considering past values and their lags."
+Backpropagation in Neural Networks,Backpropagation is the algorithm used to train neural networks by minimizing the error through adjusting the weights via gradient descent.
+Detecting Overfitting,Overfitting can be detected by comparing the performance of a model on training data vs. unseen test data. A large gap often indicates overfitting.
+Bias-Variance Tradeoff Definition,Bias-variance tradeoff refers to the balance between the error introduced by the model's assumptions (bias) and the error due to model's sensitivity to small fluctuations in the training data (variance).
+Grid Search in Hyperparameter Tuning,"Grid search is a method to systematically work through multiple combinations of hyperparameters, validating each combination using cross-validation."
+Purpose of K-Fold Cross-Validation,"K-Fold cross-validation splits the data into K subsets, trains the model on K-1 subsets, and validates on the remaining one, repeating this process K times."
+Understanding P-Values in A/B Testing,"A p-value indicates the probability of observing the data, or something more extreme, if the null hypothesis is true. It is used to assess the strength of evidence against the null hypothesis."
+Handling Missing Data in Feature Engineering,"Common techniques include mean/mode imputation, interpolation, or using algorithms that support missing values like XGBoost."
+Normalization vs. Standardization,"Normalization scales data to a range [0,1], while standardization scales data to have a mean of 0 and a standard deviation of 1."
+JOINs in SQL Queries,"JOINs are used to combine rows from two or more tables based on a related column between them, such as INNER JOIN, LEFT JOIN, and RIGHT JOIN."
+Bayes' Theorem in Probability,"Bayes' theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event."
+Purpose of Pandas Library,"Pandas is used for data manipulation and analysis, offering data structures like Series and DataFrame for handling labeled and relational data."
+Dealing with Outliers in Data Cleaning,"Common methods include removing the outliers, transforming them, or using robust statistical methods that minimize their impact."
+Precision vs. Recall in Model Evaluation,"Precision measures the accuracy of positive predictions, while recall measures the ability to identify all relevant instances. A tradeoff between the two often exists."
+Use of Hadoop in Big Data,"Hadoop is used for storing and processing large datasets across a distributed computing environment, allowing for scalable and fault-tolerant data processing."

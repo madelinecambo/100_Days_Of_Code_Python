@@ -1,5 +1,4 @@
 PINK = '#ffc8dd'
-FONT = ("Arial", 10, "bold")
 from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
@@ -20,7 +19,6 @@ def generate_password():
     password_list = password_letters + password_symbols + password_numbers
 
     shuffle(password_list)
-
 
     password = "".join(password_list)
     pyperclip.copy(password)
@@ -110,18 +108,14 @@ def find_password():
         if website in data:
             email = data[website]['email']
             password = data[website]['password']
+            pyperclip.copy(password)
             messagebox.showinfo(f"{website}", f"Email: {email}\nPassword: {password}")
 
         else:
             messagebox.showinfo("Error", f"No details for {website_entry.get()} exists")
 
-
 # Search Button
 search_button = Button(text="Search", command=find_password, width=20)
 search_button.grid(column=2, row=1)
-
-
-
-
 
 window.mainloop()
