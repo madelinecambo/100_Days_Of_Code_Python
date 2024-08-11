@@ -100,21 +100,21 @@ add_button.grid(column=1, row=4, columnspan=2)
 
 
 def find_password():
-    # try to load json
+    website = website_entry.get()
     try:
         with open('data.json', 'r') as data_file:
             data = json.load(data_file)
     except FileNotFoundError:
         messagebox.showinfo("Error", "No Data File Found.")
-    try:
-        entry = data[website_entry.get()]
-    except KeyError:
-        messagebox.showinfo("Error", f"No details for {website_entry.get()} exists")
-
     else:
-        email = entry['email']
-        password = entry['password']
-        messagebox.showinfo(f"{website_entry.get()}", f"Email: {email}\nPassword: {password}")
+        if website in data:
+            email = data[website]['email']
+            password = data[website]['password']
+            messagebox.showinfo(f"{website}", f"Email: {email}\nPassword: {password}")
+
+        else:
+            messagebox.showinfo("Error", f"No details for {website_entry.get()} exists")
+
 
 # Search Button
 search_button = Button(text="Search", command=find_password, width=20)
