@@ -6,7 +6,7 @@ For Day 33 I learned about API endpoints, how to acess them, and how to submit A
 * API endpoints
 * How to make API calls with parameters
 * How to work with JSON objects from data receivedg from API calls 
-* How to use datetime module \
+* How to use datetime module
 * How to use time.sleep()
   
 
