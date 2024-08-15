@@ -10,7 +10,7 @@ MY_PASSWORD = ""
 TO_EMAIL = ""
 
 def send_email():
-    email_subject = f"Look up☝️"
+    email_subject = f"Look up!"
     email_message = f"Subject:{email_subject}\n\nThe ISS is above you in the sky!"
 
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
@@ -19,6 +19,7 @@ def send_email():
         connection.sendmail(from_addr=MY_EMAIL,
                             to_addrs=TO_EMAIL,
                             msg=email_message)
+    print("Email Sent!")
 
 
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
@@ -32,7 +33,6 @@ iss_longitude = float(data["iss_position"]["longitude"])
 def is_iss_overhead():
     if (abs(iss_latitude - MY_LAT) <= 5) and (abs(iss_longitude - MY_LONG) <= 5):
         return True
-
 
 parameters = {
     "lat": MY_LAT,
