@@ -38,5 +38,11 @@ This repository was created to track my progress from the 100 days of coding cha
 |25|[U.S. States Guessing Game](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day25-US_State_Naming_Game)|Working with CSV Data and the Pandas Library|
 |26|[NATO Alphabet Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day26-NATO_Alphabet_Project)|List Comprehension|
 |27|[Miles to Kilometer Converter GUI Program](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day27-Miles_to_Kilometer_Converter)|Tkinter, *args, **kwargs and creating GUI Programs|
+|28|[Pomodoro GUI Application](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day28-Pomodoro_Timer)|Tkinter, Dynamic Typing and the Pomodoro GUI Application|
+|29|[Password Manager GUI Application](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day29-Password_Manager)|Building a Password Manager GUI Application with Tkinter|
+|30|[Final Version Password Manager GUI Application](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day30-Password-Manager_Final)|Errors, Exceptions and JSON Data|
+|31|[Data Science Interview Concept Flashcards](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day31-Flash_Cards)|Flash Card Application Capstone Project|
+|32|[Birthday Emailer](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day32-Birthday_Email_Sender)|Send Email (smtplib) & Manage Dates (datetime)|
+
 
 
