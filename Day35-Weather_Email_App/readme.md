@@ -1,34 +1,33 @@
-# Day 35 - API Practice - Creating a GUI Quiz App
+# Day 35 - Keys, Authentication & Enviornment Variables 
 
-For Day 34 I received more practice working with APIs and created a GUI Quiz App that has trivia questions pulled from The Open Trivia Database. 
+For Day 35 I received more practice working with APIs and creating a weather notifier application. 
 
 #### Concepts
 * API endpoints
 * Reading API documentation and making API calls with different parameters 
-* Unescaping HTML Entitities 
-* Type Hints and Arrows
-* Review of working with Classes
+* Using Keys
+* Environment Variables 
+* Program Design
   
 
-## Day 35 Project - Email Weather App
-* The main project for Day 34 involved modifying the previous Trivia Quiz App to be GUI based. 
-* Previously created classess needed to be modified to accept Trivia questions from an API call to the Open Trivia Database.
-* Each time the quiz is started a list of 10 new questions will populate the application.
-* The trivia quiz app works the same as before, but now displays all feedback in the GUI App itself. 
+## Day 35 Project - USTA Tennis Team Email Weather App
+
+The main project for Day 35 involved creating a weather application that checks the forecast for the next 12 hours and sends an email if it's forecasted to rain.
+I extended this appliation to check if the feels like temperature would exceed the USTA Heat rule (100 degrees) or the USTA cold rule. 
+This application will get a weather forecast and check the rain and feels like temperatures. 
+If there is rain in the forecast or if the USTA temperature rules will be violated then the applicaiton will send an email informing about the upcoming conditions.
+If the weather forecast is good for the matches and email will still be sent, informing of the good weather conditions and the forecast temperatures at the start of the matches. 
+
+Environment variables were used to keep API Keys, locations, and passwords secure.
 
 
-
-
-
-https://github.com/user-attachments/assets/66c7497b-ff8f-4759-959d-51690b113535
-
-
+![tennis_emailer](https://github.com/user-attachments/assets/410f09a8-8dcb-4115-a4d0-2668f9af74f0)
 
 
 
 ## Tomato Count
 
-Day 34 Lessons and Project took: 🍅🍅🍅🍅🍅🍅
+Day 34 Lessons and Project took: [🍅🍅🍅🍅][🍅🍅🍅🍅]
 
 
 
