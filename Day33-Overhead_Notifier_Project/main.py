@@ -2,12 +2,16 @@ import requests
 from datetime import datetime
 import time
 import smtplib
+import os
+from dotenv import load_dotenv
+
+load_dotenv("C:/Users/madel/OneDrive/Projects/PythonEnvironmentVariables/.env.txt")
 
 MY_LAT = 40.730610
 MY_LONG = -73.935242
-MY_EMAIL = ""
-MY_PASSWORD = ""
-TO_EMAIL = ""
+MY_EMAIL = os.getenv("MyEmail2")
+MY_PASSWORD = os.getenv("Email2AppPassword")
+TO_EMAIL = os.getenv("MyEmail1")
 
 def send_email():
     email_subject = f"Look up!"
