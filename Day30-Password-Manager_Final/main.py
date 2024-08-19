@@ -5,6 +5,8 @@ from random import choice, randint, shuffle
 import pyperclip
 import json
 
+path = "C:/Users/madel/OneDrive/Projects/PythonEnvironmentVariables/"
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
 
@@ -40,17 +42,17 @@ def save():
         messagebox.showinfo("Opps", "Please don't leave any fields empty!")
     else:
         try:
-            with open('data.json', 'r') as data_file:
+            with open(path + 'data.json', 'r') as data_file:
                 #Reading old data
                 data = json.load(data_file)
                 #Updating old data with new data
                 data.update(new_data)
         except FileNotFoundError:
-            with open('data.json', 'w') as data_file:
+            with open(path + 'data.json', 'w') as data_file:
                 json.dump(new_data, data_file, indent=4)
 
         else:
-            with open('data.json', 'w') as data_file:
+            with open(path + 'data.json', 'w') as data_file:
                 #Saving updated data
                 json.dump(data, data_file, indent=4)
         finally:
@@ -100,7 +102,7 @@ add_button.grid(column=1, row=4, columnspan=2)
 def find_password():
     website = website_entry.get()
     try:
-        with open('data.json', 'r') as data_file:
+        with open(path + 'data.json', 'r') as data_file:
             data = json.load(data_file)
     except FileNotFoundError:
         messagebox.showinfo("Error", "No Data File Found.")
