@@ -30,7 +30,7 @@ Currently the application is running daily on Python Anywhere. This application 
 
 ## Tomato Count
 
-Day 34 Lessons and Project took: [🍅🍅🍅🍅][🍅🍅🍅🍅]
+Day 35 Lessons and Project took: [🍅🍅🍅🍅][🍅🍅🍅🍅]
 
 
 
