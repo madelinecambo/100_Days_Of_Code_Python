@@ -25,7 +25,6 @@ TO_EMAIL = os.getenv("MyEmail1")
 # Date Constants
 TODAY = dt.datetime.now().date()
 MATCH_START_TIME = pd.to_datetime(str(TODAY) + ' ' + "18:00")
-
 COMBO_MATCH_DATES = ['2024-08-17', '2024-08-19', '2024-08-26', '2024-09-02', '2024-09-09', '2024-09-16', '2024-09-23']
 COMBO_MATCH_DATES = [pd.to_datetime(date) for date in COMBO_MATCH_DATES]
 MIXED_MATCH_DATES = pd.date_range('2024-09-14', '2024-11-14', freq='7d').tolist()
