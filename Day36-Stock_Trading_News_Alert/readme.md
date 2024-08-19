@@ -1,4 +1,4 @@
-# Day 36 - Stock Trading News Alert Projrect
+## Day 36 - Stock Trading News Alert Projrect
 
 For Day 36 I received more practice working with APIs and creating another application for sending alerts. 
 
@@ -8,9 +8,9 @@ For Day 36 I received more practice working with APIs and creating another appli
 * Using Keys
 * Environment Variables 
 * Program Design
-  
 
-#### Day 36 Project - Stock Trading Alert Application
+
+### **Day 36 Project** - Stock Trading Alert Application
 
 The main project for Day 36 involved creating a Stock Trading Alert Application. 
 Based on a stock ticker symbol and company name the application will grab yesterday's and the day before's closing stock price.
