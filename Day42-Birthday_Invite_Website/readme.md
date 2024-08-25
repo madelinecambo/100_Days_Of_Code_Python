@@ -46,3 +46,6 @@ Today I learned about [Picsum](https://picsum.photos/200/) which is a website yo
 
 
 ![image](https://github.com/user-attachments/assets/12cc35e7-c070-45d5-a3b3-5c2fa92fa5c7)
+
+### 5. Tomato Count
+Day 42 Lessons & project took: 🍅🍅🍅
