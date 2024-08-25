@@ -1,10 +1,10 @@
-# 100 Days of Code: Day 43 - Introduction to CSS
+# 100 Days of Code: Day 44- Intermediate CSS
 
 ## Project Overview
 **Date:** 8/25/2024
 
 **Goal:**  
-Today, I learned the basics of CSS (Cascading Style Sheets), which is a style sheet language used for describing the presentation of a document written in HTML. The focus was on understanding how CSS can be used to add styling to HTML elements without cluttering the HTML file itself.
+
 
 ## Project Details
 ### 1. Technologies Used
@@ -31,6 +31,8 @@ Today, I learned the basics of CSS (Cascading Style Sheets), which is a style sh
 
 ### 3. Final Project - CSS Styling for Spanish Colors Learning Website
 
+### Final Project - CSS Styling for Spanish Colors Learning Website
+
 For the final project, I worked on creating a website designed to help users learn colors in Spanish. The primary focus was on applying CSS to style the website, making it both visually appealing and functional for language learners.
 
 The website included the following elements:
@@ -44,7 +46,7 @@ The website included the following elements:
 
 ### 4. Screenshots 
 
-![img_2.png](img_2.png)
+
 
 ### 5. Tomato Count
 
