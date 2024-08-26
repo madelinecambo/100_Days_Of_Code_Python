@@ -81,7 +81,7 @@ The objective of this project was to create a clean, aesthetically pleasing webs
 
 ### 6. Screenshots 
 
-![img_5.png](img_5.png)
+![img.png](img.png)
 
 ### 7. Tomato Count
 
