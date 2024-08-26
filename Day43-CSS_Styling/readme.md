@@ -1,7 +1,7 @@
 # 100 Days of Code: Day 44 - Intermediate CSS
 
 ## Project Overview
-**Date:** 8/26/2024
+**Date:** 8/25/2024
 
 **Goal:**  
 Today's focus was on intermediate CSS concepts, where I delved deeper into styling techniques and tools for enhancing web design.
@@ -9,7 +9,7 @@ Today's focus was on intermediate CSS concepts, where I delved deeper into styli
 ## Project Details
 ### 1. Technologies Used
 - **Languages:** HTML, CSS
-- **Tools:** VS Code, Chrome Developer Tools (CSS Inspector)
+- **Tools:** VS Code
 
 ### 2. Key Topics Covered
 
@@ -55,25 +55,22 @@ Today's focus was on intermediate CSS concepts, where I delved deeper into styli
 - This tool was introduced as a way to help with debugging CSS. It highlights the box model for all elements on the page, making it easier to see and adjust margins, padding, and other layout properties.
 
 
+### 3. Final Project - CSS Styling for Spanish Colors Learning Website
 
+For the final project, I worked on creating a website designed to help users learn colors in Spanish. The primary focus was on applying CSS to style the website, making it both visually appealing and functional for language learners.
 
-### 3. Final Project - Motivational Quote Website with CSS Styling
+The website included the following elements:
 
-For the final project, I built a motivational quote website, focusing on using CSS and `<div>` elements to style the webpage and enhance its visual appeal.
+- **Color Names in Spanish**: The core content of the website consisted of a list of colors with their corresponding names in Spanish. Each color name was displayed alongside a colored block to visually represent the color, helping users make a direct connection between the word and the visual color.
 
-#### 4. Project Overview
-- **Motivational Quotes**: The core content of the website consisted of a collection of motivational quotes. Each quote was displayed prominently on the page to inspire users as they navigate through the site.
+- **CSS Styling**: I applied various CSS techniques to enhance the learning experience:
+  - **Background Colors**: Each color name was paired with a background color matching the color it represents. This created a clear and intuitive learning interface.
+  - **Typography**: I used specific fonts and text styling to make the color names stand out, ensuring they were easy to read and aesthetically pleasing.
+  - **Responsive Design**: The CSS was designed to ensure that the website was responsive, meaning it would look good on various devices, from desktops to smartphones. This was important for making the learning tool accessible to a wide audience.
 
-- **Use of `<div>` Elements**: I utilized `<div>` elements extensively to structure the content. These `<div>`s acted as containers to group different sections of the page, such as individual quotes, background images, and decorative elements. This approach allowed for more granular control over the layout and styling of each section.
+- **Interactive Elements**: To further engage users, I included interactive elements such as hover effects that changed the appearance of the color blocks or text when users moved their mouse over them. This added a layer of interactivity that made the learning experience more dynamic and engaging.
 
-- **CSS Styling**:
-  - **Backgrounds**: I applied background colors and images to various `<div>`s to create a visually appealing and cohesive design. Each quote section had its own distinct background to make it stand out.
-  - **Typography**: I used CSS to style the text, including font selection, size, and alignment, ensuring that the quotes were easy to read and visually striking.
-  - **Spacing and Layout**: By using padding, margins, and borders, I was able to control the spacing between elements, ensuring a balanced and harmonious layout.
-
-#### 5. Objective
-The objective of this project was to create a clean, aesthetically pleasing website that delivers motivational content in an engaging and inspiring way. The use of `<div>` elements and CSS allowed for a structured and flexible design, making the website both functional and attractive.
-
+Overall, the project combined practical CSS skills with a real-world application, resulting in a user-friendly educational tool that helps users learn and remember colors in Spanish through a well-styled and interactive web interface.
 
 
 
@@ -81,8 +78,8 @@ The objective of this project was to create a clean, aesthetically pleasing webs
 
 ### 6. Screenshots 
 
-![img_5.png](img_5.png)
+![img_7.png](img_7.png)
 
 ### 7. Tomato Count
 
-Day 44 Lessons/Project took: [🍅🍅🍅🍅][🍅🍅]
+Day 44 Lessons/Project took: [🍅🍅🍅🍅]
