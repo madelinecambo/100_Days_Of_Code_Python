@@ -45,6 +45,22 @@ This repository was created to track my progress from the 100 days of coding cha
 |32|[Birthday Emailer](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day32-Birthday_Email_Sender)|Send Email (smtplib) & Manage Dates (datetime)|
 |33|[ISS Overhead Notifier](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day33-Overhead_Notifier_Project)|API Endpoints & API Parameters|
 |34|[GUI Trivia Quiz App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day34-Trivia_Quiz_App)|API Calls, Unescaping HTML Entitites and Python Typing|
+|35|[Weather Email Alert App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day35-Weather_Email_App)|Keys, Authentication and Environment Variables|
+|36|[Stock Trading News Alert](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day36-Stock_Trading_News_Alert)|News Trading Alert Project|
+|37|[Habit Tracker Pixel App](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day37-Habit_Tracker)|API Post Requests and Headers|
+|38|[Workout Tracker](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day38-Workout_Tracker)|Workout Tracking using NLP and Google Sheets|
+|39|[Flight Deal Finder Project](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day39-Flight_Deal_Finder)|IN PROGRESS|
+|40|[Day 2 Flight Deal Finder Project]|IN PROGRESS|
+
+## Web Development
+| Day | Project Name | Description|
+|-----:|-------------|-------------|
+|41|[List of Best Movies According to Me](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day41-Intro_To_HTML/readme.md)|Introduction to HTML|
+|42|[HTML Birthday Invite](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day42-Intermediate_HTML/readme.md)|Intermediate HTML|
+|43|[Spanish Color Learning Website](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day43-CSS_Styling/readme.md)|CSS Styling|
+|44|[Motivational Quote Website](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day44-Intermediate_CSS/readme.md)|Intermediate CSS|
+|45|[Web Scraping Top 100 Movies According to Empire News](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day45-Web_Scraping/readme.md)|Web Scraping with Beautiful Soup|
+
 
 
 
