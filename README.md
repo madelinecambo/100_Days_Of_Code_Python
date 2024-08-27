@@ -4,9 +4,9 @@ Welcome to my 100 Days of Code repository! This repository is dedicated to track
 
 ## About Me
 
-
-![WIN_20240708_09_37_39_Pro](https://github.com/user-attachments/assets/b3a058e1-3939-4ad4-9be7-316de6d605b9)
-
+<center>
+<img src="Madeline.jpg" width="300"/>
+</center>
 
 
 Hello! I'm Madeline, a passionate coder currently diving into the 100 Days of Code challenge. I am focused on building my skills in Python, web development, and data science, among other areas. This repository is a reflection of my journey, showcasing projects that span from beginner to intermediate levels. I believe in the power of consistent learning, and this challenge is a great way to put that into practice.
