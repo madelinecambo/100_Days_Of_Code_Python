@@ -76,6 +76,7 @@ In this section, you’ll find web development projects that I've worked on duri
 | 43  | [Spanish Color Learning Website](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day43-CSS_Styling/readme.md) | CSS Styling |
 | 44  | [Motivational Quote Website](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day44-Intermediate_CSS/readme.md) | Intermediate CSS |
 | 45  | [Web Scraping Top 100 Movies According to Empire News](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day45-Web_Scraping/readme.md) | Web Scraping with Beautiful Soup |
+|46|[Time Machine Spotifly Playlist Creator](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day46-Musical_Time_Machine)|Web scraping and use of Spotify API to create playlist|
 
 ---
 
