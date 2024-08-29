@@ -33,7 +33,8 @@ The main project for Day 35 involved creating a weather application that checks 
 
 ### 4. Screenshots 
 
-![image](https://github.com/user-attachments/assets/0bba6b5b-ab9c-4ff9-b308-4be0d1b622a0)
+![image](https://github.com/user-attachments/assets/7f22ce28-c168-4480-90a5-854529897555)
+
 
 
 
