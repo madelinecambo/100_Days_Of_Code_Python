@@ -3,9 +3,7 @@ import requests
 import datetime as dt
 from dotenv import load_dotenv
 import os
-import smtplib
-from weather import check_rain, check_cold_rule, check_heat_rule, format_weather_email
-
+from weather import check_rain, check_cold_rule, check_heat_rule, format_weather_email, send_email
 load_dotenv("C:/Users/madel/OneDrive/Projects/PythonEnvironmentVariables/.env.txt")
 
 # Open Weather API constants
@@ -16,11 +14,6 @@ OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 LOW_TEMP_FEELS_LIKE = 35
 HIGH_TEMP_FEELS_LIKE = 100
 RAIN_ID = 700
-
-# Email Related Constants
-MY_EMAIL = os.getenv("MyEmail2")
-MY_PASSWORD = os.getenv("Email2AppPassword")
-TO_EMAIL = os.getenv("MyEmail1")
 
 # Date Constants
 TODAY = dt.datetime.now().date()
@@ -39,7 +32,7 @@ if TODAY in ALL_DATES:
         "lat": LAT,
         "lon": LON,
         "appid": API_KEY,
-        "cnt": 3,
+        "cnt": 4,
         "units": 'imperial'
     }
     response = requests.get(url=OWM_ENDPOINT, params=parameters)
@@ -59,6 +52,8 @@ if TODAY in ALL_DATES:
             weather_description = forecast['weather'][0]['description']
             wind_mph = forecast['wind']['speed']
             starting_temp = forecast['main']['feels_like']
+            temp_min = forecast['main']['temp_min']
+            temp_max = forecast['main']['temp_max']
 
 
     status_message_list = [x for x in [check_rain(weather_ids, RAIN_ID),
@@ -79,19 +74,12 @@ if TODAY in ALL_DATES:
         status = f"OK: Temperature {round(starting_temp)}F/Humidity {humidity}%)"
 
 
-    subject, body = format_weather_email(status, starting_temp, humidity, wind_mph, weather_main, weather_description)
+    subject, body = format_weather_email(status, starting_temp, temp_min, temp_max,
+                                         humidity, wind_mph, weather_main,
+                                         weather_description)
 
 
-    def send_email(subject, body):
-        email_message = f"Subject:{subject}\n\n{body}"
 
-        with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
-            connection.starttls()
-            connection.login(user=MY_EMAIL, password=MY_PASSWORD)
-            connection.sendmail(from_addr=MY_EMAIL,
-                                to_addrs=TO_EMAIL,
-                                msg=email_message)
-        print("Email Sent!")
 
     send_email(subject, body)
 
