@@ -27,7 +27,7 @@ The timer works like a traditional Pomodoro Timer:
 
 ## Tomato Count
 
-Day 28 Lessons and Project took: 🍅🍅🍅🍅🍅🍅
+Day 28 Lessons and Project took: [🍅🍅🍅🍅][🍅🍅]
 
 
 
