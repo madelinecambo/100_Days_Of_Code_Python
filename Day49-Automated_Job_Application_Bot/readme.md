@@ -35,10 +35,14 @@ The objective was to automate as much of the job application process as possible
 
 
 
-https://github.com/user-attachments/assets/75922066-0bee-40a4-a3ed-b764f8d073a6
+
+https://github.com/user-attachments/assets/e2be82dd-17d8-4206-8f4a-ee400a23a235
+
+
+
 
 
 
 ### 5. Tomato Count
 
-Day 49 Lessons and Project took: [🍅🍅🍅🍅][🍅🍅🍅🍅]
+Day 49 Lessons and Project took: [🍅🍅🍅]
