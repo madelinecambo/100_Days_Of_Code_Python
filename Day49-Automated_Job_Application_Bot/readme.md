@@ -36,7 +36,11 @@ The objective was to automate as much of the job application process as possible
 
 
 
-https://github.com/user-attachments/assets/e2be82dd-17d8-4206-8f4a-ee400a23a235
+
+https://github.com/user-attachments/assets/42180567-499e-42d5-bb69-1724e95ed4e3
+
+
+
 
 
 
