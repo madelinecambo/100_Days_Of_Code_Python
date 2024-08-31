@@ -61,7 +61,7 @@ if TODAY in ALL_DATES:
                                check_cold_rule(starting_temp, LOW_TEMP_FEELS_LIKE)] if x is not None]
 
     if len(status_message_list) == 0:
-        status = f"OK: Temperature {round(starting_temp)}F/Humidity {humidity}%)"
+        status = f"OK- Temperature {round(starting_temp)}F/ Humidity {humidity}%"
         print(status)
     elif len(status_message_list) == 1:
         status = f"{status_message_list[0]} (Potential Reschedule)"
