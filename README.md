@@ -77,6 +77,9 @@ In this section, you’ll find web development projects that I've worked on duri
 | 44  | [Motivational Quote Website](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day44-Intermediate_CSS/readme.md) | Intermediate CSS |
 | 45  | [Web Scraping Top 100 Movies According to Empire News](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day45-Web_Scraping/readme.md) | Web Scraping with Beautiful Soup |
 |46|[Time Machine Spotifly Playlist Creator](https://github.com/madelinecambo/100_Days_Of_Code_Python/tree/master/Day46-Musical_Time_Machine)|Web scraping and use of Spotify API to create playlist|
+| 47  | [Amazon Price Tracker](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day47-Amazon_Price_Tracker_Alert) | Web Scraping & Automation with Selenium |
+| 48  | [Cookie Clicker Bot](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day48-Web_Browser_Bot) | Web Automation with Selenium |
+| 49  | [LinkedIn Job Application Bot](https://github.com/madelinecambo/100_Days_Of_Code_Python/blob/master/Day49-Automated_Job_Application_Bot) | Automating Job Applications with Selenium |
 
 ---
 
