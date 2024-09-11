@@ -34,6 +34,7 @@ Today, I developed an automated Twitter bot that monitors my internet speed and 
 ### 3. Challenges and Learning
 - **Challenges Faced:**
   - Twitter detected abnormal activity and immediately added an additional step for logging in
+  - Additionally the functionality of clicking the post button never worked properly. I had to manually pressure the Post button to get the Tweet to Post. If I had more time for this project I would try some additional ways of finding the Post Button element to make sure it was fully functional and automated. 
 
 ### 4. Final Project - Automated Twitter Complaint Bot
 
