@@ -34,7 +34,8 @@ Today, I developed an automated Twitter bot that monitors my internet speed and 
 ### 3. Challenges and Learning
 - **Challenges Faced:**
   - Twitter detected abnormal activity and immediately added an additional step for logging in
-  - Additionally the functionality of clicking the post button never worked properly. I had to manually pressure the Post button to get the Tweet to Post. If I had more time for this project I would try some additional ways of finding the Post Button element to make sure it was fully functional and automated. 
+  - Additionally the functionality of clicking the post button never worked properly. I had to manually pressure the Post button to get the Tweet to Post. If I had more time for this project I would try some additional ways of finding the Post Button element to make sure it was fully functional and automated.
+  - The project took longer than expected given that it's a relatively straight forward task. It seems like Twitter has anti bot measures built in, that slightly changed the web page to make driving it with Selenium more difficult. This added time and complexity to the project. 
 
 ### 4. Final Project - Automated Twitter Complaint Bot
 
