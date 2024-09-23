@@ -22,13 +22,13 @@ def check_cold_rule(starting_temp, USTA_cold):
         return(f"USTA Cold Rule Warning")
 
 
-def format_weather_email(status, temperature, temp_min, temp_max, humidity, wind_speed, weather_main, weather_description):
-    subject = f"Tennis Match Weather Alert: {status}"
+def format_weather_email(subject, status, temperature, temp_min, temp_max, humidity, wind_speed, weather_main, weather_description, match_league, match_start_time, match_location, weather_forecast_time):
+    subject = f"{subject}: {status}"
     body = f"""
 
-Please find below the weather forecast for today's match.
+Please find below the weather forecast for {match_league} Match at {match_start_time} @ {match_location}.
 
-Weather Forecast for 6pm:
+Weather Forecast for {weather_forecast_time}:
 - Temperature (Feels Like): {round(temperature)}F
 - Actual Temperature: {round(temp_min)}F - {round(temp_max)}F
 - Humidity: {humidity}%
@@ -40,7 +40,7 @@ Please take this forecast into consideration as you prepare for the match. \n\nS
 Good luck!
     """
 
-    return subject, body
+    return body
 
 def send_email(subject, body):
     email_message = f"Subject:{subject}\n\n{body}"
